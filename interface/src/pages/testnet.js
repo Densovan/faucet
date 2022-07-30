@@ -58,11 +58,11 @@ const Testne = () => {
                     />
                   </div>
                 </div>
-                {/* <ReCAPTCHA
+                <ReCAPTCHA
                   className="mt-6 flex justify-center"
                   sitekey={process.env.REACT_APP_API}
                   onChange={handleChange}
-                /> */}
+                />
                 <center>
                   <button
                     disabled={!isVerified}
