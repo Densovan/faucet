@@ -38,7 +38,7 @@ const Testne = () => {
   };
   return (
     <div>
-      <div className="container mx-auto px-64">
+      <div className="container mx-auto sm:justify-items-center sm:flex-col lg:px-32 2xl:px-64">
         <div className="mt-20">
           <div className=" rounded-2xl p-0.5  pb-2 bg-gradient-to-r from-cyan-500 to-blue-500 h-full ">
             <div className="card h-full bg-white bg-opacity-70 backdrop-blur">
