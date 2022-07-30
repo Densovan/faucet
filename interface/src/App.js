@@ -17,7 +17,7 @@ function App() {
             width: "450px",
             height: "180px",
             color: "#FFF",
-            backgroundColor: "rgba(255, 255, 255, .3)",
+            backgroundColor: "red",
             backdropFilter: "blur(10px)",
             border: "1px solid hsla(0, 0%, 65%, 0.158)",
             padding: "8px 16px",
