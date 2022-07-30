@@ -37,7 +37,7 @@ const Testne = () => {
   };
   return (
     <div>
-      <div className="container mx-auto sm:justify-items-center sm:flex-col lg:px-32 2xl:px-64">
+      <div className="container mx-auto sm:justify-items-center sm:flex-col md:px-32 2xl:px-64">
         <div className="mt-20">
           <div className=" rounded-2xl p-0.5  pb-2 bg-gradient-to-r from-pink-500 to-purple-600 h-full ">
             <div className="card h-full bg-white bg-opacity-90 backdrop-blur">
@@ -58,11 +58,11 @@ const Testne = () => {
                     />
                   </div>
                 </div>
-                {/* <ReCAPTCHA
+                <ReCAPTCHA
                   className="mt-6 flex justify-center"
-                  sitekey={process.env.REACT_APP_API}
+                  sitekey={process.env.REACT_APP_SITE_KEY}
                   onChange={handleChange}
-                /> */}
+                />
                 <center>
                   <button
                     disabled={!isVerified}
